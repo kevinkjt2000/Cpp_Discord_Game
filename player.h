@@ -4,6 +4,11 @@
 
 class player{
  public:
- std::string name;//Please make setters and getters
- unsigned int health;
+  std::string getName();
+  void setName(const std::string& newName);
+  unsigned int getHealth();
+  void setHealth(const unsigned int newHealth);
+ private:
+  std::string name;
+  unsigned int health;
 };
