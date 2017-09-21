@@ -9,8 +9,8 @@ Our glorious council has arranged with many of the world's best scientific insti
 We developped a top-secret, state-of-the-art compression technology to help us in our endeavor. One single problem, it can't compress line breaks. Which is why we imposed a hard limit on how you can contribute.
 
 # Rules
-* Each commit must have between 1 and 5 add lines.
-* Each commit may have no more than 2 remove lines.
+* Each commit must have between 1 and 10 add lines.
+* Each commit may have no more than 4 remove lines.
 * Altering an existing line counts as both removing and adding a line.
 * Each change must compile, and may not crash the game.
 * You may make a commit once per day, or if your last commit is at least two commits old.
