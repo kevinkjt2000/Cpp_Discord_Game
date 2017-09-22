@@ -1,4 +1,4 @@
-# Cpp_Discord_Game
+# Cpp_Discord_Game  [![Build Status](https://img.shields.io/travis/KageJittai/Cpp_Discord_Game/master.svg?style=flat-square&label=Travis)](https://travis-ci.org/KageJittai/Cpp_Discord_Game)
 A game made by C++ Discord.  [https://discord.gg/J5hBe8F](https://discord.gg/J5hBe8F)
 
 # Context
