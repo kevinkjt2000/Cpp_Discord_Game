@@ -1,4 +1,4 @@
-# Cpp_Discord_Game
+# Cpp_Discord_Game  [![Build Status](https://img.shields.io/travis/KageJittai/Cpp_Discord_Game/master.svg?style=flat-square&label=Travis)](https://travis-ci.org/KageJittai/Cpp_Discord_Game)
 A game made by C++ Discord.  [https://discord.gg/J5hBe8F](https://discord.gg/J5hBe8F)
 
 # Context
@@ -9,11 +9,12 @@ Our glorious council has arranged with many of the world's best scientific insti
 We developped a top-secret, state-of-the-art compression technology to help us in our endeavor. One single problem, it can't compress line breaks. Which is why we imposed a hard limit on how you can contribute.
 
 # Rules
-* Each commit must have between 1 and 10 add lines.
-* Each commit may have no more than 4 remove lines.
-* Altering an existing line counts as both removing and adding a line.
-* Each change must compile, and may not crash the game.
-* You may make a commit once per day, or if your last commit is at least two commits old.
+Every Pull Request(PR) must:
+* Have between 1 and 10 add lines;
+* Have no more than 4 remove lines; (note: altering an existing line counts as both removing and adding a line.)
+* Compile; (Travis-CI checks this by running the makefile on each PR)
+* Not crash the game;
+* Be older by at least one day from your previous PR, or be after 2 other PRs have been accepted.
 
 # How to Participate
 1. Get a GitHub account.
