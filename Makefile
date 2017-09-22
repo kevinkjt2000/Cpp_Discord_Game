@@ -1,6 +1,8 @@
-SOURCES = $(wildcard *.cpp)
+SOURCES = $(wildcard src/*.cpp)
 OBJS := $(SOURCES:%.cpp=%.o)
+DEPS := $(OBJS:.o=.d)
 FLAGS = -std=c++14 -c -O2 -g -Wall -Wextra -Werror -pedantic -pedantic-errors -MMD
+FLAGS += -Isrc/
 
 .PHONY : all
 all : main.exe
@@ -13,6 +15,6 @@ main.exe : $(OBJS)
 
 .PHONY : clean
 clean :
-	rm -f *.o main.exe
+	rm -f main.exe $(SOURCES) $(DEPS)
 
--include $(OBJS:.o=.d)
+-include $(DEPS)
