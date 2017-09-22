@@ -1,5 +1,5 @@
 # Cpp_Discord_Game
-A game made by C++ Discord.   
+A game made by C++ Discord.  [https://discord.gg/J5hBe8F](https://discord.gg/J5hBe8F)
 
 # Context
 Hi children, in our current geopolitical context of multi-polarization of powers, everybody knows that a military conflict can break out at any moment, which is why it was decided to set up a data survival policy to be prepared to face an international nuclear conflict.
