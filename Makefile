@@ -15,6 +15,6 @@ main.exe : $(OBJS)
 
 .PHONY : clean
 clean :
-	rm -f main.exe $(SOURCES) $(DEPS)
+	rm -f main.exe $(OBJS) $(DEPS)
 
 -include $(DEPS)
