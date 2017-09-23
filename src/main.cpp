@@ -11,9 +11,9 @@ T prompt(std::string message) {
     return value;
 }
 int main() {
-    std::string name;
-    name = prompt<std::string>("Enter player name: ");
-    std::cout << "Are you sure " << name << " is your name?\n";
 
+    std::string name = prompt<std::string>("Enter player name: ");
+    player p(name);
+    std::cout << "Wecome " << p.getName() << std::endl;
     return 0;
 }

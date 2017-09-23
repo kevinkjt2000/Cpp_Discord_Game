@@ -1,5 +1,10 @@
 #include "player.h"
 
+player::player(const std::string &playername)
+{
+    name = playername;
+}
+
 std::string player::getName()
 {
   return name;
